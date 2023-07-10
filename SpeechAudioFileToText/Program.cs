@@ -1,5 +1,6 @@
 ﻿using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
+
 // Retrieve the subscription key and region from environment variables
 string subscriptionKey = Environment.GetEnvironmentVariable("COGNITIVE_SERVICES_SUBSCRIPTION_KEY");
 string region = Environment.GetEnvironmentVariable("COGNITIVE_SERVICES_REGION");

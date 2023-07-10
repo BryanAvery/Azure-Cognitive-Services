@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /SpeechRecognition/Properties/launchSettings.json
 /SpeechAudioFileToText/Properties/launchSettings.json
+/ComputerVision/Properties/launchSettings.json
