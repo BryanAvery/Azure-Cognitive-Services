@@ -29,3 +29,25 @@ We welcome contributions to this repository! If you have an example or an improv
 ### Get Started
 
 Get started now by cloning this repository and exploring the diverse examples available for Azure Cognitive Services. Empower your applications with AI and ML capabilities, enhance user experiences, and unlock new possibilities for your projects. We hope you find these examples helpful in leveraging the power of Azure Cognitive Services. Happy coding!
+
+### Environment Variables
+
+Visual Studio provides a convenient way to set and manage environment variables during development. Here's how you can use the development environment in Visual Studio to set the required environment variables:
+
+Open your project in Visual Studio.
+
+Right-click on the project in the Solution Explorer and select "Properties" from the context menu.
+
+In the project properties window, go to the "Debug" tab.
+
+Under the "Environment Variables" section, you can add the required environment variables and their values. In your case, add the following variables:
+
+Variable: COGNITIVE_SERVICES_SUBSCRIPTION_KEY, Value: YourSubscriptionKey
+Variable: COGNITIVE_SERVICES_REGION, Value: YourRegion
+Replace YourSubscriptionKey and YourRegion with your actual API key and region.
+
+Click "OK" to save the project properties.
+
+Now, when you run the project from Visual Studio, it will automatically use the environment variables you set in the development environment. These values will be retrieved using Environment.GetEnvironmentVariable in your code, as shown in the previous example.
+
+By setting the environment variables within Visual Studio, you don't need to manually manage them every time you run your code from within the development environment. This allows for a smoother development experience while keeping the sensitive information separate from your code repository.
