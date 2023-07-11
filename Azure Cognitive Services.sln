@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageUnderstanding", "La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAIService", "OpenAIService\OpenAIService.csproj", "{6C634094-0E70-4898-9BBA-8F8CCEF23AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormRecongnizer", "FormRecongnizer\FormRecongnizer.csproj", "{48E872BE-DD48-41EB-86C8-7C02D72966DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6C634094-0E70-4898-9BBA-8F8CCEF23AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C634094-0E70-4898-9BBA-8F8CCEF23AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C634094-0E70-4898-9BBA-8F8CCEF23AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E872BE-DD48-41EB-86C8-7C02D72966DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E872BE-DD48-41EB-86C8-7C02D72966DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E872BE-DD48-41EB-86C8-7C02D72966DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E872BE-DD48-41EB-86C8-7C02D72966DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
