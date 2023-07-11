@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "LanguageUnderstanding": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "COGNITIVE_SERVICES_SUBSCRIPTION_KEY": "fa26e575313447bb904f1aa98cd7d810",
+        "APPID": "???",
+        "ENDPOINT": "https://cognitiveswimtayka.cognitiveservices.azure.com/"
+      }
+    }
+  }
+}
